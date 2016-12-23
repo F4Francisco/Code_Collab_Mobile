@@ -13,7 +13,7 @@ public class ChatApplication extends Application{
     @Override
     public void onCreate(){
         super.onCreate();
-        Parse.enableLocalDatastore(this);
-        Parse.initalize(this, APP_KEY_ID,APP_CLIENT_ID);
+        //Parse.enableLocalDatastore(this);
+        //Parse.initalize(this, APP_KEY_ID,APP_CLIENT_ID);
     }
 }

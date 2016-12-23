@@ -26,15 +26,10 @@ public class MainActivity extends AppCompatActivity {
         createAccountButton = (Button) findViewById(R.id.createButtonId);
         loginButton = (Button) findViewById(R.id.loginButtonId);
 
-        createAccountButton.setOnClickListener(this);
-        loginButton.setOnClickListener(this);
+        //createAccountButton.setOnClickListener(this);
+        //loginButton.setOnClickListener(this);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main,menu);
-        return true;
-    }
 
     @Override
     protected void onStart() {
@@ -61,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    ParseUser user = new ParseUser();
+/*    ParseUser user = new ParseUser();
     user.setUsername("my name");
     user.setPassword("my pass");
     user.setEmail("email@example.com");
@@ -75,14 +70,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
-    }
-    @Override
-    public void onClick(View v) {
-        switch(v.getId()) {
-            case R.id.loginButtonId:
-                break;
-            case R.id.createButtonId:
-                startActivity(new Intent(MainActivity.this, CreateAccount.class));
-        }
-    }
+    }*/
+
 }

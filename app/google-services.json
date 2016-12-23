@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "229205655306",
+    "firebase_url": "https://code-collab-mobile.firebaseio.com",
+    "project_id": "code-collab-mobile",
+    "storage_bucket": "code-collab-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229205655306:android:a4816d90519230be",
+        "android_client_info": {
+          "package_name": "com.example.franciscop.code_collab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229205655306-jo56kbufldd24693uto0bua1s0rrh4db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGR4wRKZUm0TNeB3iqXJhv4JYNVE1leRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -9,13 +9,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@android:color/background_light"
+    android:background="@android:color/background_dark"
     tools:context="com.example.franciscop.code_collab.MainActivity">
 
     //Logo
     <ImageView
         android:id="@+id/logoId"
-        android:src="@drawable/Code_Collab_Logo"
+        android:src="@drawable/code_collab_logo"
         android:layout_centerHorizontal="true"
         android:layout_width="300dp"
         android:layout_height="250dp" />
@@ -31,7 +31,6 @@
         android:layout_marginTop="47dp"
         android:textColor="@android:color/white"
         app:pb_colorNormal="@android:color/background_dark"
-        app:pb_colorPressed="@android:color/background_light"
         android:layout_below="@+id/loginButtonId"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -45,7 +44,6 @@
         android:text="Login"
         android:textColor="@android:color/white"
         app:pb_colorNormal="@android:color/background_dark"
-        app:pb_colorPressed="@android:color/background_light"
         android:layout_below="@+id/logoId"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
