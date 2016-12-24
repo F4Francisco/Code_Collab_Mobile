@@ -18,7 +18,7 @@ public class CreateAccount extends AppCompatActivity implements ProgressGenerato
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(android.R.layout.activity_create_account);
+        setContentView(R.layout.activity_create_account);
 
         progressGenerator = new ProgressGenerator(this);
     }

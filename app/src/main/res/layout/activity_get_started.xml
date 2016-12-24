@@ -10,7 +10,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@android:color/darker_gray"
-    tools:context="com.example.franciscop.code_collab.MainActivity">
+    tools:context="com.example.franciscop.code_collab.GetStartedActivity"
+    android:theme="@android:style/Theme.Material">
 
     //Logo
     <ImageView
@@ -24,21 +25,21 @@
     //Create Account
 
     <com.dd.processbutton.FlatButton
-        android:id="@+id/createButtonId"
+        android:id="@+id/getStartedcreate"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="Create Account"
         android:layout_marginTop="47dp"
         android:textColor="@android:color/white"
         app:pb_colorNormal="@android:color/background_dark"
-        android:layout_below="@+id/loginButtonId"
+        android:layout_below="@+id/getStartedLogin"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         />
 
     //Login
     <com.dd.processbutton.FlatButton
-        android:id="@+id/loginButtonId"
+        android:id="@+id/getStartedLogin"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="Login"

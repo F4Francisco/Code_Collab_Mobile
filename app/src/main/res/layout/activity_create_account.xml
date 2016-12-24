@@ -9,7 +9,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.franciscop.code_collab.CreateAccount">
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.franciscop.code_collab.CreateAccount"
+    android:theme="@android:style/Theme.Material">
     
     <LinearLayout
         android:orientation="vertical"

@@ -8,8 +8,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@android:color/background_light"
-    tools:context="com.example.franciscop.code_collab.MainActivity">
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.franciscop.code_collab.MainActivity"
+    android:theme="@android:style/Theme.Material">
 
     <ListView
         android:layout_width="wrap_content"
